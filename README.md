@@ -1,4 +1,6 @@
 # Hotel Reservation Project
+## Description
+The goal of this project is to analyze hotel booking data to identify key patterns and correlations related to reservation cancellations. The project aims to evaluate multiple machine learning models and select the most effective one for predicting whether a hotel booking will be canceled.
 ## EDA
 ### Conclusions from 'object' data
 1. Meal plan type 3 was selected very rarely, while meal plan type 2 had the highest cancellation rate.
