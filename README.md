@@ -12,3 +12,11 @@ The goal of this project is to analyze hotel booking data to identify key patter
 1. There is a correlation between lead time and the cancellation rate — reservations with longer lead times are more likely to be canceled.
 2. Room type 7 is the most expensive room type.
 3. In September and October 2017, the average room rate increased significantly.
+## Model Selection
+First, the dataset was split into three parts: training, validation, and test sets. The validation set was used for model selection, and after choosing the best-performing model, the training and validation sets were merged and used for final training. The final model performance was then evaluated on the test set.
+We evaluated several types of models: Linear Regression, Logistic Regression, Random Forest, Support Vector Classifier (SVC), and Gradient Boosting Classifier. Model performance was assessed using the classification report, which includes metrics such as accuracy, precision, recall, and F1-score. Additionally, we compared training and validation accuracy to check for overfitting.
+Based on the validation metrics, Random Forest and SVC achieved the best performance. We then applied GridSearchCV to optimize the hyperparameters of both models. After tuning, we compared their performance using confusion matrices and ROC curves. Based on these evaluations, Random Forest was selected as the final model.
+Finally, feature importance analysis showed that lead time and average price per room had the greatest impact on the model’s predictions.
+## Data Source
+Data: *Hotel Reservations Dataset* by *AHSAN RAZA* (Kaggle), licensed under **CC BY 4.0**.
+https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset
