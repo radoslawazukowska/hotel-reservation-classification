@@ -15,7 +15,7 @@ The goal of this project is to analyze hotel booking data to identify key patter
 ## Model Selection
 First, the dataset was split into three parts: training, validation, and test sets. The validation set was used for model selection, and after choosing the best-performing model, the training and validation sets were merged and used for final training. The final model performance was then evaluated on the test set.
 
-We evaluated several types of models: Linear Regression, Logistic Regression, Random Forest, Support Vector Classifier (SVC), and Gradient Boosting Classifier. Model performance was assessed using the classification report, which includes metrics such as accuracy, precision, recall, and F1-score. Additionally, we compared training and validation accuracy to check for overfitting.
+We evaluated several types of models: Logistic Regression, Random Forest, Support Vector Classifier (SVC), and Gradient Boosting Classifier. Model performance was assessed using the classification report, which includes metrics such as accuracy, precision, recall, and F1-score. Additionally, we compared training and validation accuracy to check for overfitting.
 
 Based on the validation metrics, Random Forest and SVC achieved the best performance. We then applied GridSearchCV to optimize the hyperparameters of both models. After tuning, we compared their performance using confusion matrices and ROC curves. Based on these evaluations, Random Forest was selected as the final model.
 
