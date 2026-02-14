@@ -40,7 +40,7 @@ Finally, feature importance analysis showed that lead time and average price per
 
 <img width="477" height="439" alt="Screenshot 2026-02-14 at 11 20 45" src="https://github.com/user-attachments/assets/bedd70bf-4917-4668-97f4-10a5d4bc441b" />
 
-<img width="466" height="442" alt="Screenshot 2026-02-14 at 11 21 45" src="https://github.com/user-attachments/assets/50e8dd1a-8347-4213-9d95-717b2aa76baf" />
+<img width="477" height="439" alt="Screenshot 2026-02-14 at 11 21 45" src="https://github.com/user-attachments/assets/50e8dd1a-8347-4213-9d95-717b2aa76baf" />
 
 <img width="701" height="463" alt="Screenshot 2026-02-14 at 11 21 11" src="https://github.com/user-attachments/assets/aba42f56-4402-41a1-ba0e-b0a85c88ac84" />
 
