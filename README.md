@@ -8,10 +8,17 @@ The goal of this project is to analyze hotel booking data to identify key patter
 3. There is a correlation between guest repetition and cancellation rates — non-repeated guests are more likely to cancel their reservations.
 4. Complimentary reservations were never canceled.
 5. The incorrect date 29/02/2018 was corrected to 28/02/2018.
+6. The highest number of cancellations occurs in June and July.
+7. There was an increase in cancellations in 2018 compared to 2017.
 ### Conclusions from numeric data
 1. There is a correlation between lead time and the cancellation rate — reservations with longer lead times are more likely to be canceled.
 2. Room type 7 is the most expensive room type.
 3. In September and October 2017, the average room rate increased significantly.
+
+<img width="600" height="468" alt="Screenshot 2026-02-14 at 11 10 05" src="https://github.com/user-attachments/assets/1cb0cba2-9ff5-419c-bf59-f1540833b6e4" />
+
+<img width="551" height="458" alt="Screenshot 2026-02-14 at 11 10 35" src="https://github.com/user-attachments/assets/e3669c87-ef1f-4f29-9063-4fd5fa52d1bc" />
+
 ## Model Selection
 First, the dataset was split into three parts: training, validation, and test sets. The validation set was used for model selection, and after choosing the best-performing model, the training and validation sets were merged and used for final training. The final model performance was then evaluated on the test set.
 
