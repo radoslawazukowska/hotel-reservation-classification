@@ -21,8 +21,6 @@ The goal of this project is to analyze hotel booking data to identify key patter
 
 <img width="633" height="454" alt="Screenshot 2026-02-12 at 17 11 03" src="https://github.com/user-attachments/assets/824ba623-d9c5-46e5-bd13-92ec0268fa86" />
 
-<img width="633" height="454" alt="Screenshot 2026-02-12 at 17 11 03" src="https://github.com/user-attachments/assets/228af310-0796-4cb5-96ca-b147d9085ac1" />
-
 <img width="551" height="458" alt="Screenshot 2026-02-14 at 11 10 35" src="https://github.com/user-attachments/assets/e3669c87-ef1f-4f29-9063-4fd5fa52d1bc" />
 
 <img width="1031" height="421" alt="Screenshot 2026-02-14 at 11 11 11" src="https://github.com/user-attachments/assets/42b1d2c6-b329-4f34-a423-fcf71ea05cc6" />
@@ -34,11 +32,12 @@ We evaluated several types of models: Logistic Regression, Random Forest, Suppor
 
 <img width="451" height="210" alt="Screenshot 2026-02-14 at 11 22 46" src="https://github.com/user-attachments/assets/8c2a167a-bc3e-40c0-9439-b1dbccc569c5" />
 
-<img width="438" height="212" alt="Screenshot 2026-02-14 at 11 23 02" src="https://github.com/user-attachments/assets/06ad637e-7bed-4a72-b589-396f22aa1914" />
+<img width="451" height="210" alt="Screenshot 2026-02-14 at 11 23 02" src="https://github.com/user-attachments/assets/06ad637e-7bed-4a72-b589-396f22aa1914" />
 
 Based on the validation metrics, Random Forest and SVC achieved the best performance. We then applied GridSearchCV to optimize the hyperparameters of both models. After tuning, we compared their performance using confusion matrices and ROC curves. Based on these evaluations, Random Forest was selected as the final model.
 
 Finally, feature importance analysis showed that lead time and average price per room had the greatest impact on the model’s predictions.
+
 <img width="477" height="439" alt="Screenshot 2026-02-14 at 11 20 45" src="https://github.com/user-attachments/assets/bedd70bf-4917-4668-97f4-10a5d4bc441b" />
 
 <img width="466" height="442" alt="Screenshot 2026-02-14 at 11 21 45" src="https://github.com/user-attachments/assets/50e8dd1a-8347-4213-9d95-717b2aa76baf" />
@@ -53,6 +52,7 @@ Finally, feature importance analysis showed that lead time and average price per
 3. Loyalty Programs: Data shows returning guests are more reliable. We should prioritize loyalty programs, as new customer acquisitions currently carry a higher risk of cancellation.
 
 4. Complimentary Bookings: With a 100% fulfillment rate, free stays are an excellent tool for guaranteed occupancy (e.g., for influencers, partners, or service recovery).
+
 ## Data Source
 Data: *Hotel Reservations Dataset* by *AHSAN RAZA* (Kaggle), licensed under **CC BY 4.0**.
 https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset
