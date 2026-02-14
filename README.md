@@ -15,13 +15,13 @@ The goal of this project is to analyze hotel booking data to identify key patter
 2. Room type 7 is the most expensive room type.
 3. In September and October 2017, the average room rate increased significantly.
 
-<img width="600" height="468" alt="Screenshot 2026-02-14 at 11 10 05" src="https://github.com/user-attachments/assets/1cb0cba2-9ff5-419c-bf59-f1540833b6e4" />
+<img width="633" height="491" alt="Screenshot 2026-02-14 at 11 10 05" src="https://github.com/user-attachments/assets/1cb0cba2-9ff5-419c-bf59-f1540833b6e4" />
 
 <img width="633" height="491" alt="Screenshot 2026-02-12 at 17 10 25" src="https://github.com/user-attachments/assets/fa9f7615-cc09-41d8-80b6-6ef16d3e5c62" />
 
 <img width="633" height="491" alt="Screenshot 2026-02-12 at 17 11 03" src="https://github.com/user-attachments/assets/824ba623-d9c5-46e5-bd13-92ec0268fa86" />
 
-<img width="551" height="458" alt="Screenshot 2026-02-14 at 11 10 35" src="https://github.com/user-attachments/assets/e3669c87-ef1f-4f29-9063-4fd5fa52d1bc" />
+<img width="633" height="491" alt="Screenshot 2026-02-14 at 11 10 35" src="https://github.com/user-attachments/assets/e3669c87-ef1f-4f29-9063-4fd5fa52d1bc" />
 
 <img width="1031" height="421" alt="Screenshot 2026-02-14 at 11 11 11" src="https://github.com/user-attachments/assets/42b1d2c6-b329-4f34-a423-fcf71ea05cc6" />
 
